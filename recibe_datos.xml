@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="#e0e0e0"
+        android:paddingTop="20dp"
+        android:baselineAligned="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recepción de un valor"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:id="@+id/textView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R:"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:textColor="#e65100"
+            android:id="@+id/tv_recibe1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:paddingTop="20dp"
+        android:background="#bdbdbd">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recepción de valores"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:id="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R:"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColor="#e65100"
+            android:id="@+id/tv_recibe2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R:"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:textColor="#e65100"
+            android:id="@+id/tv_recibe3" />
+
+    </LinearLayout>
+</LinearLayout>
